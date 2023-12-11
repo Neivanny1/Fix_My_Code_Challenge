@@ -30,6 +30,7 @@ class Square():
         """ string representation of the square """
         return "{}/{}".format(self.width, self.height)
 
+
 if __name__ == "__main__":
     """ tests initialization of Square instance """
     s = Square(width=12, height=9)
