@@ -9,8 +9,10 @@ class square():
     Module that declares class square
     """
 
-    """a square class attributes"""
+    """ class attribute: width of Square """
     width = 0
+
+    """ class attribute: height of Square """
     height = 0
 
     def __init__(self, *args, **kwargs):
@@ -38,6 +40,7 @@ class square():
 
 
 if __name__ == "__main__":
+    """ tests initialization of Square instance """
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
